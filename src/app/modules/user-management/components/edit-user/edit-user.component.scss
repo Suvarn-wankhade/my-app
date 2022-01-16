@@ -1,0 +1,41 @@
+.edit-user, .mat-form-field {
+    width: 100%;
+    .button {
+        height: 32px;
+        width: 100px;
+        border-radius: 40;
+        border-radius: 21px;
+        background: #00a99d;
+        border-bottom: 1px solid #ffffff;
+        color: white;
+        border: none;
+        font-weight: 600;
+    }
+    .cursor {
+        cursor: pointer;
+        font-size: 13px;
+    }
+    
+    
+    .radio-button {
+        margin-top: 16px !important;
+    }
+    
+    .header {
+        font-weight: bold;
+    }
+    .radio-container{
+        display: flex;
+        align-items: center;
+    }
+    .mr-15{
+        margin-right: 15px;
+    }
+    .submit-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mb-15{
+        margin-bottom: 15px;
+    }
+}

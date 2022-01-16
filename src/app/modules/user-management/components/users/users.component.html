@@ -1,0 +1,10 @@
+<mat-card class="mat-elevation-z8">
+  <div class="header">USER LIST</div>
+  <div *ngIf="users?.length !== 0">
+    <app-entity-listing
+      [entityListing]="entityListing"
+      [users]="users"
+      (userUpdated)="onUsersUpdated($event)"
+    ></app-entity-listing>
+  </div>
+</mat-card>

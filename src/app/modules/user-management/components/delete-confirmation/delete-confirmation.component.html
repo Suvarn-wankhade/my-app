@@ -1,0 +1,20 @@
+<div class="container">
+  <div fxLayout="row" >
+    <div fxFlex="90" class="header" fxLayoutGap="10">
+      Delete User
+    </div>
+    <div fxFlex="10" fxLayoutAlign="end center">
+      <mat-icon class="close-icon" aria-hidden="false" aria-label="close" (click)="onClose(false)">close</mat-icon>
+    </div>
+  </div>
+  <hr>
+
+  <p>Are you sure you want to delete {{ data }}?</p>
+
+  <div fxLayoutAlign="end center">
+    <div fxLayout="row" fxFlex="40" fxLayoutAlign="space-around">
+      <button class="btn btn-light" (click)="onClose(false)">No</button>
+      <button class="btn" (click)="onClose(true)">Yes</button>
+    </div>
+  </div>
+</div>

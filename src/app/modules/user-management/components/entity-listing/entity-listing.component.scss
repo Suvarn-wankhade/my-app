@@ -1,0 +1,27 @@
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    table {
+        width: 100%;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header {
+    background-color: "#00a99d" !important;
+    color: "#fffff";
+}
+
+.mat-table {
+    font-family: "Poppins";
+    border: 1px solid lightslategrey;
+    overflow: auto !important;
+}
+
+.content {
+    font-weight: 400 !important;
+}

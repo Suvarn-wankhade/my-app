@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Seo Joen",
+        "gender": "Male",
+        "email": "seojoen@gmail.com",
+        "address": "471 Duncan Avenue, New York",
+        "dateOfBirth": "1980-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "gender": "Female",
+        "email": "johndoe@gmail.com",
+        "address": "977 Hartway Street SD",
+        "dateOfBirth": "1990-05-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 3,
+        "name": "Rose Smith",
+        "gender": "Female",
+        "email": "rose.smith@gmail.com",
+        "address": "4579 Huntz Lane, OH",
+        "dateOfBirth": "1970-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 4,
+        "name": "Droid Crew",
+        "gender": "Male",
+        "email": "droid.crew@gmail.com",
+        "address": "4209 Green Acres, TN",
+        "dateOfBirth": "2020-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 5,
+        "name": "Deo Rosa",
+        "gender": "Male",
+        "email": "deo.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "2021-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 6,
+        "name": "Sam Rosa",
+        "gender": "Male",
+        "email": "sam.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "1975-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 4,
+        "name": "Droid Crew",
+        "gender": "Male",
+        "email": "droid.crew@gmail.com",
+        "address": "4209 Green Acres, TN",
+        "dateOfBirth": "1947-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 5,
+        "name": "Deo Rosa",
+        "gender": "Male",
+        "email": "deo.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "1949-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 6,
+        "name": "Sam Rosa",
+        "gender": "Male",
+        "email": "sam.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "1950-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 4,
+        "name": "Droid Crew",
+        "gender": "Male",
+        "email": "droid.crew@gmail.com",
+        "address": "4209 Green Acres, TN",
+        "dateOfBirth": "1960-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 5,
+        "name": "Deo Rosa",
+        "gender": "Male",
+        "email": "deo.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "1985-04-05T18:30:00.000Z",
+        "isSelected": false
+    },
+    {
+        "id": 6,
+        "name": "Sam Rosa",
+        "gender": "Male",
+        "email": "sam.rosa@gmail.com",
+        "address": "2913 Barnes Avenue, OH",
+        "dateOfBirth": "1995-04-05T18:30:00.000Z",
+        "isSelected": false
+    }
+]

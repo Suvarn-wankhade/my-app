@@ -1,0 +1,48 @@
+<div class="edit-user">
+  <div fxLayout="row" fxFlexFill class="mb-15">
+    <div fxFlex="90" class="listing header" >
+      Edit User 
+    </div>
+    <div fxFlex="10" fxLayoutAlign="end center" >
+      <mat-icon class="cursor" aria-hidden="false" aria-label="close" (click)="onClose()">close</mat-icon>
+    </div>
+  </div>
+
+  <form [formGroup]="userForm" autocomplete="off">
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" required>
+      <mat-error>Name is required</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="outline">
+      <mat-label>Email Address</mat-label>
+      <input matInput formControlName="email">
+      <mat-error>Email must be a valid address</mat-error>
+    </mat-form-field>
+
+    <mat-radio-group fxLayout="row" aria-label="Select an option" formControlName="gender">
+      <div class="radio-container">
+        <mat-label class="mr-15">Gender</mat-label>
+      <mat-radio-button class="mr-15" value="Male">Male</mat-radio-button>
+      <mat-radio-button value="Female">Female</mat-radio-button>
+      </div>
+    </mat-radio-group>
+
+    <mat-form-field class="radio-button" appearance="outline">
+      <mat-label>Date of Birth</mat-label>
+      <input matInput [matDatepicker]="picker" formControlName="dateOfBirth" [max]="maxDate" (dateChange)="onDateChanged($event)">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Address</mat-label>
+      <textarea  matInput formControlName="address"></textarea>
+    </mat-form-field>
+  </form>
+
+  <div class="submit-btn">
+    <button class="button" (click)="onSubmit()">Submit</button>
+  </div>
+</div>
